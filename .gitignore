@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+
+# Environment secrets
+.env
+*.env
+
+# Streamlit
+.streamlit/
+
+# Generated files
+**/ausgabe/
+*.xlsx
+*.txt
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log.venv/
+__pycache__/
+*.pyc
+.env
+.pytest_cache/
+.DS_Store
+kiezmove.db
