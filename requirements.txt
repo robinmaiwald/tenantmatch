@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+streamlit
+requests
+python-dotenv
+pytest
+sqlalchemy
+httpx
+google-genai>=2.0
+openpyxl>=3.1
