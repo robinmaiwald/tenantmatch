@@ -14,8 +14,8 @@ from backend.app.services.vermieter_assistent import (
     ki_client,
     bewerber_laden,
     bewerber_bewerten,
+    excel_speichern,
 )
-
 
 app = FastAPI(
     title="TenantMatch",
@@ -87,6 +87,13 @@ def landlord_interview(request: LandlordInterviewRequest):
             applicants,
             state["wohnung"],
             state["anforderungen"],
+        )
+
+        excel_speichern(
+            results,
+            state["wohnung"],
+            state["anforderungen"],
+            {},
         )
 
         matches = results[:5]

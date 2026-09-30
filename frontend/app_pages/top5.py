@@ -72,8 +72,14 @@ else:
 
             st.divider()
 
-    if st.button(
-        "Back to search",
-        icon=":material/arrow_back:",
-    ):
-        st.switch_page("app_pages/find_tenant.py")
+        if st.button(
+                "Back to search",
+                icon=":material/arrow_back:",
+        ):
+                st.switch_page("app_pages/find_tenant.py")
+
+        if st.button(
+                "Back",
+                icon=":material/arrow_back:",
+                ):
+                        st.switch_page("app_pages/landlord.py")

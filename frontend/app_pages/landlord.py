@@ -21,3 +21,10 @@ with bewerber:
 with finden:
     if st.button("Find a tenant", icon=":material/search:", type="primary", width="stretch"):
         st.switch_page("app_pages/find_tenant.py")
+
+
+if st.button(
+    "Home",
+    icon=":material/arrow_back:",
+):
+    st.switch_page("app_pages/home.py")

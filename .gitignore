@@ -17,7 +17,7 @@ venv/
 # Generated files
 **/ausgabe/
 *.xlsx
-*.txt
+#*.txt
 
 # OS
 .DS_Store

@@ -158,5 +158,11 @@ if st.button(
         "tenantmatch_matches",
     ]:
         st.session_state.pop(key, None)
+    
+if st.button(
+    "Back",
+    icon=":material/arrow_back:",
+):
+    st.switch_page("app_pages/landlord.py")
 
     st.rerun()

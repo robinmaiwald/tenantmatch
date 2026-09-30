@@ -17,3 +17,9 @@ with mieter:
 with vermieter:
     if st.button("Landlord", icon=":material/real_estate_agent:", type="primary", width="stretch"):
         st.switch_page("app_pages/landlord.py")
+
+if st.button(
+    "Back",
+    icon=":material/arrow_back:",
+):
+    st.switch_page("app_pages/home.py")
